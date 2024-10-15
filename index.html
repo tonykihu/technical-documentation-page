@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS</title>
+    <link  rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main-doc">
+        <nav id="navbar">
+            <header>HTML & CSS: 4 Essential Topics</header>
+            <a href="#introduction" class="nav-link">Introduction</a>
+            <a href="#html_structure" class="nav-link">HTML Structure</a>
+            <a href="#css_styling" class="nav-link">CSS Styling</a>
+            <a href="#layout_and_positioning" class="nav-link">Layout and Positioning</a>
+            <a href="#colors_and_fonts" class="nav-link">Colors and Fonts</a>
+        </nav>
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <p>HTML (HyperText Markup Language) is the core language for creating the structure of web pages, while CSS (Cascading Style Sheets) is used for styling and visually formatting these pages. Together, they allow developers to create well-structured and visually appealing websites that are both functional and user-friendly.</p>
+            <p>HTML organizes content into meaningful elements like headers, paragraphs, and images, while CSS defines how these elements appear. By combining these technologies, you can create responsive, interactive, and polished websites that meet modern design standards.</p>
+            <code>
+                &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+            </code>
+            <li><b>Introduction to HTML and CSS:</b> HTML provides the structure of a webpage, while CSS handles its design and layout.</li>
+        </section>
+        <section class="main-section" id="html_structure">
+            <header>HTML Structure</header>
+            <p>HTML structure is the backbone of any webpage, determining how content is organized and presented to users. HTML uses tags such as <code>header</code>, <code>section</code>, <code>footer</code>, and more to define different sections of the content.</p>
+            <p>A well-structured HTML document improves both readability and accessibility, making it easier for search engines and users to navigate the page effectively.</p>
+            <code>
+                &lt;!DOCTYPE html&gt;<br>
+                 &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+            </code>
+            <li><b>HTML Structure:</b> A well-organized HTML structure improves both accessibility and search engine optimization (SEO).</li>
+        </section>
+        <section class="main-section" id="css_styling">
+            <header>CSS Styling</header>
+            <p>CSS is used to style the content of an HTML page, such as adding colors, changing fonts, and modifying the size and spacing of elements. With CSS, you can control every aspect of the webpage’s design, from text styling to creating layouts.</p>
+            <p>Styling is done by targeting HTML elements using selectors, and then applying properties such as color, font-size, and margin.</p>
+            <code>  
+                h1 { <br>
+                    color: #1e90ff;<br> font-size: 36px; <br>}<br>
+                p { <br>color: #555;<br> font-size: 18px; <br>}
+            </code>
+            <li><b>CSS Styling:</b> CSS allows you to control the visual appearance of HTML elements by applying styles like colors, fonts, and spacing.</li>
+        </section>
+        <section class="main-section" id="layout_and_positioning">
+            <header>Layout and Positioning</header>
+            <p>CSS helps with layout and positioning by allowing you to arrange elements in different ways, such as using grids, flexbox, or positioning methods like absolute, relative, or fixed. This is essential for building responsive, structured layouts.</p>
+            <p>Proper layout techniques ensure that content is displayed well on different devices, providing a smooth user experience across various screen sizes.</p>
+            <code>
+                .container { <br>display: flex; <br>justify-content: space-around; <br>}<br>
+                .box { <br>width: 100px; <br>height: 100px; <br>background-color: #4CAF50; <br>color: white; <br>display: flex; <br>justify-content: center; <br>align-items: center; <br>}
+            </code>
+            <li><b>Layout and Positioning:</b> CSS layout techniques such as Flexbox and Grid ensure responsive and flexible layouts for different screen sizes.</li>
+        </section>
+        <section class="main-section" id="colors_and_fonts">
+            <header>Colors and Fonts</header>
+            <p>Colors and fonts are critical in web design as they define the look and feel of a webpage. CSS properties like color, background-color, and font-family allow you to customize the appearance of text and other elements to match the overall design of the site.</p>
+            <p>Choosing the right color scheme and font combinations can greatly enhance readability and visual appeal.</p>
+            <code>
+                body { <br>background-color: #f0f0f0; <br>font-family: 'Courier New'; }<br>
+                h1 { <br>color: #ff6347; <br>}<br>
+                p { <br>color: #2e8b57; <br>}
+            </code>
+            <li><b>Colors and Fonts:</b> Choosing appropriate colors and fonts in CSS enhances the website’s readability and overall user experience.</li>
+        </section>
+
+    </main>
+</body>
+</html>
